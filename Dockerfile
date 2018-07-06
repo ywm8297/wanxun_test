@@ -1,4 +1,4 @@
-FROM registry-vpc.cn-shenzhen.aliyuncs.com/ywm_private/wanxun_test:v1
+FROM wanxun_test:v1
 
 MAINTAINER 409988694@qq.com 
 
