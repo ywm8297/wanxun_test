@@ -1,4 +1,4 @@
-FROM registry-vpc.cn-shenzhen.aliyuncs.com/ywm_private/centos6.8_tomcat8.5.32:v1
+FROM registry-vpc.cn-shenzhen.aliyuncs.com/ywm_private/wanxun_test:v1
 
 MAINTAINER 409988694@qq.com 
 
