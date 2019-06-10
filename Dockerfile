@@ -1,9 +1,10 @@
-FROM registry.cn-shenzhen.aliyuncs.com/ywm_private/wanxun_test:v1
+FROM registry-vpc.cn-shenzhen.aliyuncs.com/ywm_private/tomcat:v1
+
 
 MAINTAINER 409988694@qq.com 
 
+
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-ADD wanxun_index.war /usr/local/tomcat/webapps/
 
- 
+ADD ROOT.war /usr/local/tomcat/webapps/
